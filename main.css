@@ -3,7 +3,7 @@ body.signin-body {
 }
 
 .container.signin-container {
-    margin-top: 15%;
+    margin-top: 10%; 
 }
 
 .card.signin-card {
@@ -23,4 +23,22 @@ img.signin-img {
 form.signin-form {
     max-width: 350px;
     margin: auto;
+}
+
+button.signin-btn {
+    color: #ffff;
+    background-color: rgb(0, 89, 255);
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+button.signin-btn:hover {
+    background-color: rgb(3, 93, 167);
+}
+
+a.creat-new-account {
+    text-align: center;
+    font-size: 1rem;
+    display: block;
+    margin-top: 1rem;
 }
